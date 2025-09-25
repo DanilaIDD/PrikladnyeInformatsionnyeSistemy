@@ -1,0 +1,152 @@
+/* Общие стили для body */
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif; 
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+/* Стили для header */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    background-color: #16a085;
+    padding: 20px 0;
+}
+.header img {
+    display: block; 
+    width: 318px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+/* Заголовок "Архив статей" */
+.page-title {
+    color: #ffffff;
+    font-size: 36px;
+    margin: 0 auto;
+    padding: 15px 30px;
+    background-color: #2c909b;
+    display: inline-block;
+    border-radius: 5px;
+}
+/* Ссылка "Все записи" */
+.all-posts-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 14px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+.all-posts-link:hover {
+    text-decoration: underline;
+}
+/* Стили для главной страницы */
+.archive {
+    width: 960px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.archive h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.one-post {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: #16a085;
+}
+/* Белые подчеркнутые ссылки */
+.post-title a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.post-title a:hover {
+    text-decoration: underline;
+}
+.article-info {
+    overflow: hidden;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.article-author { 
+    width: 50%; 
+    float: left;
+    font-weight: bold;
+}
+.article-created-date { 
+    width: 50%;
+    float: right;
+    text-align: right;
+    font-style: italic;
+}
+.article-text {
+    font-size: 14px;
+    line-height: 1.6;
+}
+/* Стили для страницы отдельной статьи */
+.article {
+    width: 960px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.article-header {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+.article-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: left; /* Название статьи слева */
+}
+.article-meta {
+    overflow: hidden;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.article-author-name {
+    width: 50%;
+    float: left;
+    font-weight: bold;
+}
+.article-created-date {
+    width: 50%;
+    float: right;
+    text-align: right;
+    font-style: italic;
+}
+.article-content {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    text-align: justify;
+    background-color: #16a085;
+    padding: 20px;
+    border-radius: 5px;
+}
+/* Дополнительные стили */
+h1, h2, h3 {
+    margin-top: 0;
+}
+.one-post h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.article h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: underline;
+}
