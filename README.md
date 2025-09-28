@@ -11,3 +11,5 @@ Laboratornaya #4 - 25 sept 2025.
 Laboratornaya #5 - 26 sept 2025.
 
 Laboratornaya #6 - 27 sept 2025.
+
+Laboratornaya #7 - 28 sept 2025.
